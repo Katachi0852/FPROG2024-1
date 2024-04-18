@@ -16,3 +16,20 @@ else:
 
 if sexo == 'F' and idade >= 65:
     print('É uma pessoa do sexo feminino com mais de 65 anos.')
+
+###
+
+mediaFinal = 6.0
+frequencia = 0.75
+
+if mediaFinal < 6.0:
+    print('Reprovado por média inferior a 6.0!')
+elif frequencia < 0.75:
+    print('Reprovado por faltas!')
+else:
+    print('Aprovado!')
+
+if (mediaFinal < 6.0 or frequencia < 0.75):
+    print('Reprovado!')
+    if mediaFinal < 6.0:
+        print('Reprovado por média baixa!')

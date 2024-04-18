@@ -1,4 +1,7 @@
 #
+resposta = 'X'
+
+
 while resposta != 'S' and resposta != 'N':
     resposta = input('Resposta Sim (S) ou Não (N): ')
     
@@ -16,5 +19,5 @@ nome = input('Digite seu nome: ')
 cont = 0
 
 while cont < 10:
-    print(nome)
+    print(cont, '-', nome)
     cont = cont + 1
